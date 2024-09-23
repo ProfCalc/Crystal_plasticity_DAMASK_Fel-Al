@@ -1,0 +1,28 @@
+loadstep:
+
+  - discretization:
+      t: 100
+      N: 10
+    f_out: 10
+    boundary_conditions:
+      mechanical:
+        dot_F: [[1.0e-3, 0, 0],
+                [0,      x, 0],
+                [0,      0, x]]
+        P: [[x, x, x],
+            [x, 0, x],
+            [x, x, 0]]
+
+  - discretization:
+      t: 1000
+      N: 50
+    boundary_conditions:
+      mechanical:
+        dot_F: [[1.0e-3, 0, 0],
+                [0,      x, 0],
+                [0,      0, x]]
+        P: [[x, x, x],
+            [x, 0, x],
+            [x, x, 0]]
+    f_out: 10
+    f_restart: 25
