@@ -1,0 +1,1131 @@
+{
+    "00": {
+        "CellEnsembleAttributeMatrixName": "CellEnsembleData",
+        "CrystalStructuresArrayName": "CrystalStructures",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "StatsGenerator",
+        "Filter_Name": "StatsGeneratorFilter",
+        "Filter_Uuid": "{f642e217-4722-5dd8-9df9-cee71e7b26ba}",
+        "PhaseNamesArrayName": "PhaseName",
+        "PhaseTypesArrayName": "PhaseTypes",
+        "StatsDataArray": {
+            "1": {
+                "AxisODF-Weights": {
+                    "Euler 1": [
+                        0
+                    ],
+                    "Euler 2": [
+                        0
+                    ],
+                    "Euler 3": [
+                        0
+                    ],
+                    "Sigma": [
+                        1
+                    ],
+                    "Weight": [
+                        46189.44140625
+                    ]
+                },
+                "Bin Count": 4,
+                "BinNumber": [
+                    7.389056205749512,
+                    18.389057159423828,
+                    29.389057159423828,
+                    40.38905715942383
+                ],
+                "BoundaryArea": 0,
+                "Crystal Symmetry": 1,
+                "FeatureSize Distribution": {
+                    "Average": 3,
+                    "Standard Deviation": 0.25
+                },
+                "FeatureSize Vs B Over A Distributions": {
+                    "Alpha": [
+                        15.302403450012207,
+                        15.534416198730469,
+                        15.319148063659668,
+                        15.617229461669922
+                    ],
+                    "Beta": [
+                        1.5672669410705566,
+                        1.6806687116622925,
+                        1.7232977151870728,
+                        1.570243239402771
+                    ],
+                    "Distribution Type": "Beta Distribution"
+                },
+                "FeatureSize Vs C Over A Distributions": {
+                    "Alpha": [
+                        15.302403450012207,
+                        15.534416198730469,
+                        15.319148063659668,
+                        15.617229461669922
+                    ],
+                    "Beta": [
+                        1.5672669410705566,
+                        1.6806687116622925,
+                        1.7232977151870728,
+                        1.570243239402771
+                    ],
+                    "Distribution Type": "Beta Distribution"
+                },
+                "FeatureSize Vs Neighbors Distributions": {
+                    "Average": [
+                        2.3025851249694824,
+                        2.4849066734313965,
+                        2.6390573978424072,
+                        2.7725887298583984
+                    ],
+                    "Distribution Type": "Log Normal Distribution",
+                    "Standard Deviation": [
+                        0.4000000059604645,
+                        0.3499999940395355,
+                        0.30000001192092896,
+                        0.25
+                    ]
+                },
+                "FeatureSize Vs Omega3 Distributions": {
+                    "Alpha": [
+                        10.302403450012207,
+                        10.534416198730469,
+                        10.319148063659668,
+                        10.617229461669922
+                    ],
+                    "Beta": [
+                        1.8172669410705566,
+                        1.9306687116622925,
+                        1.9732977151870728,
+                        1.820243239402771
+                    ],
+                    "Distribution Type": "Beta Distribution"
+                },
+                "Feature_Diameter_Info": [
+                    11,
+                    42.52108383178711,
+                    7.389056205749512
+                ],
+                "MDF-Weights": {
+                },
+                "Name": "steel",
+                "ODF-Weights": {
+                },
+                "PhaseFraction": 1,
+                "PhaseType": "Primary"
+            },
+            "Name": "Statistics",
+            "Phase Count": 2
+        },
+        "StatsDataArrayName": "Statistics",
+        "StatsGeneratorDataContainerName": "StatsGeneratorDataContainer"
+    },
+    "01": {
+        "BoxDimensions": "X Range: 0 to 300 (Delta: 300)\nY Range: 0 to 90 (Delta: 90)\nZ Range: 0 to 10 (Delta: 10)",
+        "CellAttributeMatrixName": "CellData",
+        "DataContainerName": "SyntheticVolumeDataContainer",
+        "Dimensions": {
+            "x": 300,
+            "y": 90,
+            "z": 10
+        },
+        "EnsembleAttributeMatrixName": "CellEnsembleData",
+        "EstimateNumberOfFeatures": 1,
+        "EstimatedPrimaryFeatures": "57",
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Initialize Synthetic Volume",
+        "Filter_Name": "InitializeSyntheticVolume",
+        "Filter_Uuid": "{c2ae366b-251f-5dbd-9d70-d790376c0c0d}",
+        "InputPhaseTypesArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData",
+            "Data Array Name": "PhaseTypes",
+            "Data Container Name": "StatsGeneratorDataContainer"
+        },
+        "InputStatsArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData",
+            "Data Array Name": "Statistics",
+            "Data Container Name": "StatsGeneratorDataContainer"
+        },
+        "Origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "Resolution": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+        }
+    },
+    "02": {
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Establish Shape Types",
+        "Filter_Name": "EstablishShapeTypes",
+        "Filter_Uuid": "{4edbbd35-a96b-5ff1-984a-153d733e2abb}",
+        "InputPhaseTypesArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData",
+            "Data Array Name": "PhaseTypes",
+            "Data Container Name": "StatsGeneratorDataContainer"
+        },
+        "ShapeTypeData": [
+            999,
+            0
+        ],
+        "ShapeTypesArrayName": "ShapeTypes"
+    },
+    "03": {
+        "CellPhasesArrayName": "Phases",
+        "FeatureGeneration": 0,
+        "FeatureIdsArrayName": "FeatureIds",
+        "FeatureInputFile": "C:/Users/Tamaghna",
+        "FeaturePhasesArrayName": "Phases",
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Pack Primary Phases",
+        "Filter_Name": "PackPrimaryPhases",
+        "Filter_Uuid": "{84305312-0d10-50ca-b89a-fda17a353cc9}",
+        "InputPhaseNamesArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData",
+            "Data Array Name": "PhaseName",
+            "Data Container Name": "StatsGeneratorDataContainer"
+        },
+        "InputPhaseTypesArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData",
+            "Data Array Name": "PhaseTypes",
+            "Data Container Name": "StatsGeneratorDataContainer"
+        },
+        "InputShapeTypesArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData",
+            "Data Array Name": "ShapeTypes",
+            "Data Container Name": "StatsGeneratorDataContainer"
+        },
+        "InputStatsArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData",
+            "Data Array Name": "Statistics",
+            "Data Container Name": "StatsGeneratorDataContainer"
+        },
+        "MaskArrayPath": {
+            "Attribute Matrix Name": "",
+            "Data Array Name": "",
+            "Data Container Name": ""
+        },
+        "NewAttributeMatrixPath": {
+            "Attribute Matrix Name": "Synthetic Shape Parameters (Primary Phase)",
+            "Data Array Name": "",
+            "Data Container Name": "SyntheticVolumeDataContainer"
+        },
+        "NumFeaturesArrayName": "NumFeatures",
+        "OutputCellAttributeMatrixPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "",
+            "Data Container Name": "SyntheticVolumeDataContainer"
+        },
+        "OutputCellEnsembleAttributeMatrixName": "CellEnsembleData",
+        "OutputCellFeatureAttributeMatrixName": "Grain Data",
+        "PeriodicBoundaries": 0,
+        "SaveGeometricDescriptions": 0,
+        "SelectedAttributeMatrixPath": {
+            "Attribute Matrix Name": "",
+            "Data Array Name": "",
+            "Data Container Name": ""
+        },
+        "UseMask": 0
+    },
+    "04": {
+        "BoundaryCellsArrayName": "BoundaryCells",
+        "CellFeatureAttributeMatrixPath": {
+            "Attribute Matrix Name": "Grain Data",
+            "Data Array Name": "",
+            "Data Container Name": "SyntheticVolumeDataContainer"
+        },
+        "FeatureIdsArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "FeatureIds",
+            "Data Container Name": "SyntheticVolumeDataContainer"
+        },
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Find Feature Neighbors",
+        "Filter_Name": "FindNeighbors",
+        "Filter_Uuid": "{97cf66f8-7a9b-5ec2-83eb-f8c4c8a17bac}",
+        "NeighborListArrayName": "NeighborList",
+        "NumNeighborsArrayName": "NumNeighbors",
+        "SharedSurfaceAreaListArrayName": "SharedSurfaceAreaList",
+        "StoreBoundaryCells": 0,
+        "StoreSurfaceFeatures": 1,
+        "SurfaceFeaturesArrayName": "SurfaceFeatures"
+    },
+    "05": {
+        "AvgQuatsArrayName": "AvgQuats",
+        "CellEulerAnglesArrayName": "EulerAngles",
+        "CrystalStructuresArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData",
+            "Data Array Name": "CrystalStructures",
+            "Data Container Name": "StatsGeneratorDataContainer"
+        },
+        "FeatureEulerAnglesArrayName": "EulerAngles",
+        "FeatureIdsArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "FeatureIds",
+            "Data Container Name": "SyntheticVolumeDataContainer"
+        },
+        "FeaturePhasesArrayPath": {
+            "Attribute Matrix Name": "Grain Data",
+            "Data Array Name": "Phases",
+            "Data Container Name": "SyntheticVolumeDataContainer"
+        },
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Match Crystallography",
+        "Filter_Name": "MatchCrystallography",
+        "Filter_Uuid": "{7bfb6e4a-6075-56da-8006-b262d99dff30}",
+        "InputStatsArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData",
+            "Data Array Name": "Statistics",
+            "Data Container Name": "StatsGeneratorDataContainer"
+        },
+        "MaxIterations": 100000,
+        "NeighborListArrayPath": {
+            "Attribute Matrix Name": "Grain Data",
+            "Data Array Name": "NeighborList",
+            "Data Container Name": "SyntheticVolumeDataContainer"
+        },
+        "NumFeaturesArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData",
+            "Data Array Name": "NumFeatures",
+            "Data Container Name": "SyntheticVolumeDataContainer"
+        },
+        "PhaseTypesArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData",
+            "Data Array Name": "PhaseTypes",
+            "Data Container Name": "StatsGeneratorDataContainer"
+        },
+        "SharedSurfaceAreaListArrayPath": {
+            "Attribute Matrix Name": "Grain Data",
+            "Data Array Name": "SharedSurfaceAreaList",
+            "Data Container Name": "SyntheticVolumeDataContainer"
+        },
+        "SurfaceFeaturesArrayPath": {
+            "Attribute Matrix Name": "Grain Data",
+            "Data Array Name": "SurfaceFeatures",
+            "Data Container Name": "SyntheticVolumeDataContainer"
+        },
+        "VolumesArrayName": "Volumes"
+    },
+    "06": {
+        "CellEulerAnglesArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "EulerAngles",
+            "Data Container Name": "SyntheticVolumeDataContainer"
+        },
+        "CellIPFColorsArrayName": "IPFColor",
+        "CellPhasesArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "Phases",
+            "Data Container Name": "SyntheticVolumeDataContainer"
+        },
+        "CrystalStructuresArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData",
+            "Data Array Name": "CrystalStructures",
+            "Data Container Name": "StatsGeneratorDataContainer"
+        },
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Generate IPF Colors",
+        "Filter_Name": "GenerateIPFColors",
+        "Filter_Uuid": "{a50e6532-8075-5de5-ab63-945feb0de7f7}",
+        "GoodVoxelsArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "",
+            "Data Container Name": "SyntheticVolumeDataContainer"
+        },
+        "ReferenceDir": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+        },
+        "UseGoodVoxels": 0
+    },
+    "07": {
+        "FilterVersion": "1.2.828",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Write DREAM.3D Data File",
+        "Filter_Name": "DataContainerWriter",
+        "Filter_Uuid": "{3fcd4c43-9d75-5b86-aad4-4441bc914f37}",
+        "OutputFile": "D:\\IIT Roorkee\\twolayers_1i.dream3d",
+        "WriteTimeSeries": 0,
+        "WriteXdmfFile": 1
+    },
+    "08": {
+        "CellEnsembleAttributeMatrixName": "CellEnsembleData1",
+        "CrystalStructuresArrayName": "CrystalStructures",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "StatsGenerator",
+        "Filter_Name": "StatsGeneratorFilter",
+        "Filter_Uuid": "{f642e217-4722-5dd8-9df9-cee71e7b26ba}",
+        "PhaseNamesArrayName": "PhaseName",
+        "PhaseTypesArrayName": "PhaseTypes",
+        "StatsDataArray": {
+            "1": {
+                "AxisODF-Weights": {
+                    "Euler 1": [
+                        0
+                    ],
+                    "Euler 2": [
+                        0
+                    ],
+                    "Euler 3": [
+                        0
+                    ],
+                    "Sigma": [
+                        1
+                    ],
+                    "Weight": [
+                        46189.44140625
+                    ]
+                },
+                "Bin Count": 4,
+                "BinNumber": [
+                    7.389056205749512,
+                    18.389057159423828,
+                    29.389057159423828,
+                    40.38905715942383
+                ],
+                "BoundaryArea": 0,
+                "Crystal Symmetry": 1,
+                "FeatureSize Distribution": {
+                    "Average": 3,
+                    "Standard Deviation": 0.25
+                },
+                "FeatureSize Vs B Over A Distributions": {
+                    "Alpha": [
+                        15.263503074645996,
+                        15.390871047973633,
+                        15.338546752929688,
+                        15.78834056854248
+                    ],
+                    "Beta": [
+                        1.3355087041854858,
+                        1.3229469060897827,
+                        1.592208743095398,
+                        1.4795819520950317
+                    ],
+                    "Distribution Type": "Beta Distribution"
+                },
+                "FeatureSize Vs C Over A Distributions": {
+                    "Alpha": [
+                        15.263503074645996,
+                        15.390871047973633,
+                        15.338546752929688,
+                        15.78834056854248
+                    ],
+                    "Beta": [
+                        1.3355087041854858,
+                        1.3229469060897827,
+                        1.592208743095398,
+                        1.4795819520950317
+                    ],
+                    "Distribution Type": "Beta Distribution"
+                },
+                "FeatureSize Vs Neighbors Distributions": {
+                    "Average": [
+                        2.3025851249694824,
+                        2.4849066734313965,
+                        2.6390573978424072,
+                        2.7725887298583984
+                    ],
+                    "Distribution Type": "Log Normal Distribution",
+                    "Standard Deviation": [
+                        0.4000000059604645,
+                        0.3499999940395355,
+                        0.30000001192092896,
+                        0.25
+                    ]
+                },
+                "FeatureSize Vs Omega3 Distributions": {
+                    "Alpha": [
+                        10.263503074645996,
+                        10.390871047973633,
+                        10.338546752929688,
+                        10.78834056854248
+                    ],
+                    "Beta": [
+                        1.5855087041854858,
+                        1.5729469060897827,
+                        1.842208743095398,
+                        1.7295819520950317
+                    ],
+                    "Distribution Type": "Beta Distribution"
+                },
+                "Feature_Diameter_Info": [
+                    11,
+                    42.52108383178711,
+                    7.389056205749512
+                ],
+                "MDF-Weights": {
+                },
+                "Name": "aluminium",
+                "ODF-Weights": {
+                },
+                "PhaseFraction": 1,
+                "PhaseType": "Primary"
+            },
+            "Name": "Statistics",
+            "Phase Count": 2
+        },
+        "StatsDataArrayName": "Statistics",
+        "StatsGeneratorDataContainerName": "StatsGeneratorDataContainer1"
+    },
+    "09": {
+        "BoxDimensions": "X Range: 0 to 300 (Delta: 300)\nY Range: 0 to 90 (Delta: 90)\nZ Range: 0 to 10 (Delta: 10)",
+        "CellAttributeMatrixName": "CellData1",
+        "DataContainerName": "SyntheticVolumeDataContainer1",
+        "Dimensions": {
+            "x": 300,
+            "y": 90,
+            "z": 10
+        },
+        "EnsembleAttributeMatrixName": "CellEnsembleData1",
+        "EstimateNumberOfFeatures": 1,
+        "EstimatedPrimaryFeatures": "60",
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Initialize Synthetic Volume",
+        "Filter_Name": "InitializeSyntheticVolume",
+        "Filter_Uuid": "{c2ae366b-251f-5dbd-9d70-d790376c0c0d}",
+        "InputPhaseTypesArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData1",
+            "Data Array Name": "PhaseTypes",
+            "Data Container Name": "StatsGeneratorDataContainer1"
+        },
+        "InputStatsArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData1",
+            "Data Array Name": "Statistics",
+            "Data Container Name": "StatsGeneratorDataContainer1"
+        },
+        "Origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "Resolution": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+        }
+    },
+    "10": {
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Establish Shape Types",
+        "Filter_Name": "EstablishShapeTypes",
+        "Filter_Uuid": "{4edbbd35-a96b-5ff1-984a-153d733e2abb}",
+        "InputPhaseTypesArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData1",
+            "Data Array Name": "PhaseTypes",
+            "Data Container Name": "StatsGeneratorDataContainer1"
+        },
+        "ShapeTypeData": [
+            999,
+            0
+        ],
+        "ShapeTypesArrayName": "ShapeTypes1"
+    },
+    "11": {
+        "CellPhasesArrayName": "Phases",
+        "FeatureGeneration": 0,
+        "FeatureIdsArrayName": "FeatureIds",
+        "FeatureInputFile": "C:/Users/Tamaghna",
+        "FeaturePhasesArrayName": "Phases",
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Pack Primary Phases",
+        "Filter_Name": "PackPrimaryPhases",
+        "Filter_Uuid": "{84305312-0d10-50ca-b89a-fda17a353cc9}",
+        "InputPhaseNamesArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData1",
+            "Data Array Name": "PhaseName",
+            "Data Container Name": "StatsGeneratorDataContainer1"
+        },
+        "InputPhaseTypesArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData1",
+            "Data Array Name": "PhaseTypes",
+            "Data Container Name": "StatsGeneratorDataContainer1"
+        },
+        "InputShapeTypesArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData1",
+            "Data Array Name": "ShapeTypes1",
+            "Data Container Name": "StatsGeneratorDataContainer1"
+        },
+        "InputStatsArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData1",
+            "Data Array Name": "Statistics",
+            "Data Container Name": "StatsGeneratorDataContainer1"
+        },
+        "MaskArrayPath": {
+            "Attribute Matrix Name": "",
+            "Data Array Name": "",
+            "Data Container Name": ""
+        },
+        "NewAttributeMatrixPath": {
+            "Attribute Matrix Name": "Synthetic Shape Parameters (Primary Phase)",
+            "Data Array Name": "",
+            "Data Container Name": "SyntheticVolumeDataContainer"
+        },
+        "NumFeaturesArrayName": "NumFeatures",
+        "OutputCellAttributeMatrixPath": {
+            "Attribute Matrix Name": "CellData1",
+            "Data Array Name": "",
+            "Data Container Name": "SyntheticVolumeDataContainer1"
+        },
+        "OutputCellEnsembleAttributeMatrixName": "CellEnsembleData",
+        "OutputCellFeatureAttributeMatrixName": "Grain Data",
+        "PeriodicBoundaries": 0,
+        "SaveGeometricDescriptions": 0,
+        "SelectedAttributeMatrixPath": {
+            "Attribute Matrix Name": "",
+            "Data Array Name": "",
+            "Data Container Name": ""
+        },
+        "UseMask": 0
+    },
+    "12": {
+        "BoundaryCellsArrayName": "BoundaryCells",
+        "CellFeatureAttributeMatrixPath": {
+            "Attribute Matrix Name": "Grain Data",
+            "Data Array Name": "",
+            "Data Container Name": "SyntheticVolumeDataContainer1"
+        },
+        "FeatureIdsArrayPath": {
+            "Attribute Matrix Name": "CellData1",
+            "Data Array Name": "FeatureIds",
+            "Data Container Name": "SyntheticVolumeDataContainer1"
+        },
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Find Feature Neighbors",
+        "Filter_Name": "FindNeighbors",
+        "Filter_Uuid": "{97cf66f8-7a9b-5ec2-83eb-f8c4c8a17bac}",
+        "NeighborListArrayName": "NeighborList1",
+        "NumNeighborsArrayName": "NumNeighbors1",
+        "SharedSurfaceAreaListArrayName": "SharedSurfaceAreaList1",
+        "StoreBoundaryCells": 0,
+        "StoreSurfaceFeatures": 1,
+        "SurfaceFeaturesArrayName": "SurfaceFeatures1"
+    },
+    "13": {
+        "AvgQuatsArrayName": "AvgQuats1",
+        "CellEulerAnglesArrayName": "EulerAngles",
+        "CrystalStructuresArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData1",
+            "Data Array Name": "CrystalStructures",
+            "Data Container Name": "StatsGeneratorDataContainer1"
+        },
+        "FeatureEulerAnglesArrayName": "AvgEulerAngles1",
+        "FeatureIdsArrayPath": {
+            "Attribute Matrix Name": "CellData1",
+            "Data Array Name": "FeatureIds",
+            "Data Container Name": "SyntheticVolumeDataContainer1"
+        },
+        "FeaturePhasesArrayPath": {
+            "Attribute Matrix Name": "Grain Data",
+            "Data Array Name": "Phases",
+            "Data Container Name": "SyntheticVolumeDataContainer1"
+        },
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Match Crystallography",
+        "Filter_Name": "MatchCrystallography",
+        "Filter_Uuid": "{7bfb6e4a-6075-56da-8006-b262d99dff30}",
+        "InputStatsArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData1",
+            "Data Array Name": "Statistics",
+            "Data Container Name": "StatsGeneratorDataContainer1"
+        },
+        "MaxIterations": 100000,
+        "NeighborListArrayPath": {
+            "Attribute Matrix Name": "Grain Data",
+            "Data Array Name": "NeighborList1",
+            "Data Container Name": "SyntheticVolumeDataContainer1"
+        },
+        "NumFeaturesArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData",
+            "Data Array Name": "NumFeatures",
+            "Data Container Name": "SyntheticVolumeDataContainer1"
+        },
+        "PhaseTypesArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData1",
+            "Data Array Name": "PhaseTypes",
+            "Data Container Name": "StatsGeneratorDataContainer1"
+        },
+        "SharedSurfaceAreaListArrayPath": {
+            "Attribute Matrix Name": "Grain Data",
+            "Data Array Name": "SharedSurfaceAreaList1",
+            "Data Container Name": "SyntheticVolumeDataContainer1"
+        },
+        "SurfaceFeaturesArrayPath": {
+            "Attribute Matrix Name": "Grain Data",
+            "Data Array Name": "SurfaceFeatures1",
+            "Data Container Name": "SyntheticVolumeDataContainer1"
+        },
+        "VolumesArrayName": "Volumes1"
+    },
+    "14": {
+        "CellEulerAnglesArrayPath": {
+            "Attribute Matrix Name": "CellData1",
+            "Data Array Name": "EulerAngles",
+            "Data Container Name": "SyntheticVolumeDataContainer1"
+        },
+        "CellIPFColorsArrayName": "IPFColor",
+        "CellPhasesArrayPath": {
+            "Attribute Matrix Name": "CellData1",
+            "Data Array Name": "Phases",
+            "Data Container Name": "SyntheticVolumeDataContainer1"
+        },
+        "CrystalStructuresArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData1",
+            "Data Array Name": "CrystalStructures",
+            "Data Container Name": "StatsGeneratorDataContainer1"
+        },
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Generate IPF Colors",
+        "Filter_Name": "GenerateIPFColors",
+        "Filter_Uuid": "{a50e6532-8075-5de5-ab63-945feb0de7f7}",
+        "GoodVoxelsArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "",
+            "Data Container Name": "SyntheticVolumeDataContainer"
+        },
+        "ReferenceDir": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+        },
+        "UseGoodVoxels": 0
+    },
+    "15": {
+        "FilterVersion": "1.2.828",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Replace Value in Array",
+        "Filter_Name": "ReplaceValueInArray",
+        "Filter_Uuid": "{a37f2e24-7400-5005-b9a7-b2224570cbe9}",
+        "RemoveValue": 1,
+        "ReplaceValue": 0,
+        "SelectedArray": {
+            "Attribute Matrix Name": "CellData1",
+            "Data Array Name": "Phases",
+            "Data Container Name": "SyntheticVolumeDataContainer1"
+        }
+    },
+    "16": {
+        "CheckResolution": 1,
+        "DestinationAttributeMatrix": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "",
+            "Data Container Name": "SyntheticVolumeDataContainer"
+        },
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Append Z Slice (Image Geometry)",
+        "Filter_Name": "AppendImageGeometryZSlice",
+        "Filter_Uuid": "{52b2918a-4fb5-57aa-97d4-ccc084b89572}",
+        "InputAttributeMatrix": {
+            "Attribute Matrix Name": "CellData1",
+            "Data Array Name": "",
+            "Data Container Name": "SyntheticVolumeDataContainer1"
+        }
+    },
+    "17": {
+        "FilterVersion": "1.2.828",
+        "Filter_Enabled": false,
+        "Filter_Human_Label": "Write DREAM.3D Data File",
+        "Filter_Name": "DataContainerWriter",
+        "Filter_Uuid": "{3fcd4c43-9d75-5b86-aad4-4441bc914f37}",
+        "OutputFile": "D:\\IIT Roorkee\\twolayers_1f.dream3d",
+        "WriteTimeSeries": 0,
+        "WriteXdmfFile": 1
+    },
+    "18": {
+        "CellEnsembleAttributeMatrixName": "CellEnsembleData2",
+        "CrystalStructuresArrayName": "CrystalStructures",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "StatsGenerator",
+        "Filter_Name": "StatsGeneratorFilter",
+        "Filter_Uuid": "{f642e217-4722-5dd8-9df9-cee71e7b26ba}",
+        "PhaseNamesArrayName": "PhaseName",
+        "PhaseTypesArrayName": "PhaseTypes",
+        "StatsDataArray": {
+            "1": {
+                "AxisODF-Weights": {
+                    "Euler 1": [
+                        0
+                    ],
+                    "Euler 2": [
+                        0
+                    ],
+                    "Euler 3": [
+                        0
+                    ],
+                    "Sigma": [
+                        1
+                    ],
+                    "Weight": [
+                        46189.44140625
+                    ]
+                },
+                "Bin Count": 4,
+                "BinNumber": [
+                    7.389056205749512,
+                    18.389057159423828,
+                    29.389057159423828,
+                    40.38905715942383
+                ],
+                "BoundaryArea": 0,
+                "Crystal Symmetry": 1,
+                "FeatureSize Distribution": {
+                    "Average": 3,
+                    "Standard Deviation": 0.25
+                },
+                "FeatureSize Vs B Over A Distributions": {
+                    "Alpha": [
+                        15.302403450012207,
+                        15.534416198730469,
+                        15.319148063659668,
+                        15.617229461669922
+                    ],
+                    "Beta": [
+                        1.5672669410705566,
+                        1.6806687116622925,
+                        1.7232977151870728,
+                        1.570243239402771
+                    ],
+                    "Distribution Type": "Beta Distribution"
+                },
+                "FeatureSize Vs C Over A Distributions": {
+                    "Alpha": [
+                        15.302403450012207,
+                        15.534416198730469,
+                        15.319148063659668,
+                        15.617229461669922
+                    ],
+                    "Beta": [
+                        1.5672669410705566,
+                        1.6806687116622925,
+                        1.7232977151870728,
+                        1.570243239402771
+                    ],
+                    "Distribution Type": "Beta Distribution"
+                },
+                "FeatureSize Vs Neighbors Distributions": {
+                    "Average": [
+                        2.3025851249694824,
+                        2.4849066734313965,
+                        2.6390573978424072,
+                        2.7725887298583984
+                    ],
+                    "Distribution Type": "Log Normal Distribution",
+                    "Standard Deviation": [
+                        0.4000000059604645,
+                        0.3499999940395355,
+                        0.30000001192092896,
+                        0.25
+                    ]
+                },
+                "FeatureSize Vs Omega3 Distributions": {
+                    "Alpha": [
+                        10.302403450012207,
+                        10.534416198730469,
+                        10.319148063659668,
+                        10.617229461669922
+                    ],
+                    "Beta": [
+                        1.8172669410705566,
+                        1.9306687116622925,
+                        1.9732977151870728,
+                        1.820243239402771
+                    ],
+                    "Distribution Type": "Beta Distribution"
+                },
+                "Feature_Diameter_Info": [
+                    11,
+                    42.52108383178711,
+                    7.389056205749512
+                ],
+                "MDF-Weights": {
+                },
+                "Name": "steel",
+                "ODF-Weights": {
+                },
+                "PhaseFraction": 1,
+                "PhaseType": "Primary"
+            },
+            "Name": "Statistics",
+            "Phase Count": 2
+        },
+        "StatsDataArrayName": "Statistics",
+        "StatsGeneratorDataContainerName": "StatsGeneratorDataContainer2"
+    },
+    "19": {
+        "BoxDimensions": "X Range: 0 to 300 (Delta: 300)\nY Range: 0 to 90 (Delta: 90)\nZ Range: 0 to 10 (Delta: 10)",
+        "CellAttributeMatrixName": "CellData",
+        "DataContainerName": "SyntheticVolumeDataContainer2",
+        "Dimensions": {
+            "x": 300,
+            "y": 90,
+            "z": 10
+        },
+        "EnsembleAttributeMatrixName": "CellEnsembleData",
+        "EstimateNumberOfFeatures": 1,
+        "EstimatedPrimaryFeatures": "42",
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Initialize Synthetic Volume",
+        "Filter_Name": "InitializeSyntheticVolume",
+        "Filter_Uuid": "{c2ae366b-251f-5dbd-9d70-d790376c0c0d}",
+        "InputPhaseTypesArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData2",
+            "Data Array Name": "PhaseTypes",
+            "Data Container Name": "StatsGeneratorDataContainer2"
+        },
+        "InputStatsArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData2",
+            "Data Array Name": "Statistics",
+            "Data Container Name": "StatsGeneratorDataContainer2"
+        },
+        "Origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "Resolution": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+        }
+    },
+    "20": {
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Establish Shape Types",
+        "Filter_Name": "EstablishShapeTypes",
+        "Filter_Uuid": "{4edbbd35-a96b-5ff1-984a-153d733e2abb}",
+        "InputPhaseTypesArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData2",
+            "Data Array Name": "PhaseTypes",
+            "Data Container Name": "StatsGeneratorDataContainer2"
+        },
+        "ShapeTypeData": [
+            999,
+            0
+        ],
+        "ShapeTypesArrayName": "ShapeTypes"
+    },
+    "21": {
+        "CellPhasesArrayName": "Phases",
+        "FeatureGeneration": 0,
+        "FeatureIdsArrayName": "FeatureIds",
+        "FeatureInputFile": "C:/Users/Tamaghna",
+        "FeaturePhasesArrayName": "Phases",
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Pack Primary Phases",
+        "Filter_Name": "PackPrimaryPhases",
+        "Filter_Uuid": "{84305312-0d10-50ca-b89a-fda17a353cc9}",
+        "InputPhaseNamesArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData2",
+            "Data Array Name": "PhaseName",
+            "Data Container Name": "StatsGeneratorDataContainer2"
+        },
+        "InputPhaseTypesArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData2",
+            "Data Array Name": "PhaseTypes",
+            "Data Container Name": "StatsGeneratorDataContainer2"
+        },
+        "InputShapeTypesArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData2",
+            "Data Array Name": "ShapeTypes",
+            "Data Container Name": "StatsGeneratorDataContainer2"
+        },
+        "InputStatsArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData2",
+            "Data Array Name": "Statistics",
+            "Data Container Name": "StatsGeneratorDataContainer2"
+        },
+        "MaskArrayPath": {
+            "Attribute Matrix Name": "",
+            "Data Array Name": "",
+            "Data Container Name": ""
+        },
+        "NewAttributeMatrixPath": {
+            "Attribute Matrix Name": "Synthetic Shape Parameters (Primary Phase)",
+            "Data Array Name": "",
+            "Data Container Name": "SyntheticVolumeDataContainer"
+        },
+        "NumFeaturesArrayName": "NumFeatures",
+        "OutputCellAttributeMatrixPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "",
+            "Data Container Name": "SyntheticVolumeDataContainer2"
+        },
+        "OutputCellEnsembleAttributeMatrixName": "CellEnsembleData",
+        "OutputCellFeatureAttributeMatrixName": "Grain Data",
+        "PeriodicBoundaries": 0,
+        "SaveGeometricDescriptions": 0,
+        "SelectedAttributeMatrixPath": {
+            "Attribute Matrix Name": "",
+            "Data Array Name": "",
+            "Data Container Name": ""
+        },
+        "UseMask": 0
+    },
+    "22": {
+        "BoundaryCellsArrayName": "BoundaryCells",
+        "CellFeatureAttributeMatrixPath": {
+            "Attribute Matrix Name": "Grain Data",
+            "Data Array Name": "",
+            "Data Container Name": "SyntheticVolumeDataContainer2"
+        },
+        "FeatureIdsArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "FeatureIds",
+            "Data Container Name": "SyntheticVolumeDataContainer2"
+        },
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Find Feature Neighbors",
+        "Filter_Name": "FindNeighbors",
+        "Filter_Uuid": "{97cf66f8-7a9b-5ec2-83eb-f8c4c8a17bac}",
+        "NeighborListArrayName": "NeighborList",
+        "NumNeighborsArrayName": "NumNeighbors",
+        "SharedSurfaceAreaListArrayName": "SharedSurfaceAreaList",
+        "StoreBoundaryCells": 0,
+        "StoreSurfaceFeatures": 1,
+        "SurfaceFeaturesArrayName": "SurfaceFeatures"
+    },
+    "23": {
+        "AvgQuatsArrayName": "AvgQuats2",
+        "CellEulerAnglesArrayName": "EulerAngles",
+        "CrystalStructuresArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData2",
+            "Data Array Name": "CrystalStructures",
+            "Data Container Name": "StatsGeneratorDataContainer2"
+        },
+        "FeatureEulerAnglesArrayName": "AvgEulerAngles",
+        "FeatureIdsArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "FeatureIds",
+            "Data Container Name": "SyntheticVolumeDataContainer2"
+        },
+        "FeaturePhasesArrayPath": {
+            "Attribute Matrix Name": "Grain Data",
+            "Data Array Name": "Phases",
+            "Data Container Name": "SyntheticVolumeDataContainer2"
+        },
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Match Crystallography",
+        "Filter_Name": "MatchCrystallography",
+        "Filter_Uuid": "{7bfb6e4a-6075-56da-8006-b262d99dff30}",
+        "InputStatsArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData2",
+            "Data Array Name": "Statistics",
+            "Data Container Name": "StatsGeneratorDataContainer2"
+        },
+        "MaxIterations": 100000,
+        "NeighborListArrayPath": {
+            "Attribute Matrix Name": "Grain Data",
+            "Data Array Name": "NeighborList",
+            "Data Container Name": "SyntheticVolumeDataContainer2"
+        },
+        "NumFeaturesArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData",
+            "Data Array Name": "NumFeatures",
+            "Data Container Name": "SyntheticVolumeDataContainer2"
+        },
+        "PhaseTypesArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData2",
+            "Data Array Name": "PhaseTypes",
+            "Data Container Name": "StatsGeneratorDataContainer2"
+        },
+        "SharedSurfaceAreaListArrayPath": {
+            "Attribute Matrix Name": "Grain Data",
+            "Data Array Name": "SharedSurfaceAreaList",
+            "Data Container Name": "SyntheticVolumeDataContainer2"
+        },
+        "SurfaceFeaturesArrayPath": {
+            "Attribute Matrix Name": "Grain Data",
+            "Data Array Name": "SurfaceFeatures",
+            "Data Container Name": "SyntheticVolumeDataContainer2"
+        },
+        "VolumesArrayName": "Volumes2"
+    },
+    "24": {
+        "CellEulerAnglesArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "EulerAngles",
+            "Data Container Name": "SyntheticVolumeDataContainer2"
+        },
+        "CellIPFColorsArrayName": "IPFColor",
+        "CellPhasesArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "Phases",
+            "Data Container Name": "SyntheticVolumeDataContainer2"
+        },
+        "CrystalStructuresArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData",
+            "Data Array Name": "CrystalStructures",
+            "Data Container Name": "StatsGeneratorDataContainer"
+        },
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Generate IPF Colors",
+        "Filter_Name": "GenerateIPFColors",
+        "Filter_Uuid": "{a50e6532-8075-5de5-ab63-945feb0de7f7}",
+        "GoodVoxelsArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "",
+            "Data Container Name": "SyntheticVolumeDataContainer"
+        },
+        "ReferenceDir": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+        },
+        "UseGoodVoxels": 0
+    },
+    "25": {
+        "CheckResolution": 1,
+        "DestinationAttributeMatrix": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "",
+            "Data Container Name": "SyntheticVolumeDataContainer"
+        },
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Append Z Slice (Image Geometry)",
+        "Filter_Name": "AppendImageGeometryZSlice",
+        "Filter_Uuid": "{52b2918a-4fb5-57aa-97d4-ccc084b89572}",
+        "InputAttributeMatrix": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "",
+            "Data Container Name": "SyntheticVolumeDataContainer2"
+        }
+    },
+    "26": {
+        "FilterVersion": "1.2.828",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Write DREAM.3D Data File",
+        "Filter_Name": "DataContainerWriter",
+        "Filter_Uuid": "{3fcd4c43-9d75-5b86-aad4-4441bc914f37}",
+        "OutputFile": "D:\\IIT Roorkee\\twolayers_1ff.dream3d",
+        "WriteTimeSeries": 0,
+        "WriteXdmfFile": 1
+    },
+    "PipelineBuilder": {
+        "Name": "DREAM3D sandwhich maker",
+        "Number_Filters": 27,
+        "Version": 6
+    }
+}
